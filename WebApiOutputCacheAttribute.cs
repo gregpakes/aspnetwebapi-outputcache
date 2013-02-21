@@ -13,7 +13,7 @@ namespace WebApi.OutputCache
 {
     public class WebApiOutputCacheAttribute : ActionFilterAttribute
     {
-        // cache length in seconds
+        // cache length in seconds;
         private int _timespan = 0;
 
         // client cache length in seconds
